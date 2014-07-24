@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RNSampleSectionView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shortnorth.png" translatesAutoresizingMaskIntoConstraints="NO" id="hee-ed-wXk">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="San Francisco" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="150" translatesAutoresizingMaskIntoConstraints="NO" id="sC0-Nf-GVy">
+                    <rect key="frame" x="10" y="40" width="150" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <size key="shadowOffset" width="0.0" height="1"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hee-ed-wXk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KUg-MZ-f3B"/>
+                <constraint firstItem="sC0-Nf-GVy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="L1b-cI-Soe"/>
+                <constraint firstAttribute="trailing" secondItem="hee-ed-wXk" secondAttribute="trailing" id="L5R-Z0-rtZ"/>
+                <constraint firstAttribute="bottom" secondItem="hee-ed-wXk" secondAttribute="bottom" id="Mas-5f-8kA"/>
+                <constraint firstItem="sC0-Nf-GVy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="Osk-3L-ote"/>
+                <constraint firstItem="sC0-Nf-GVy" firstAttribute="width" secondItem="hee-ed-wXk" secondAttribute="width" multiplier="0.47" id="TFK-SM-x6T"/>
+                <constraint firstItem="hee-ed-wXk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="tw8-zW-yij"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="hee-ed-wXk" id="flz-Eg-Pcc"/>
+                <outlet property="textLabel" destination="sC0-Nf-GVy" id="epy-Db-xQW"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="shortnorth.png" width="320" height="240"/>
+    </resources>
+</document>

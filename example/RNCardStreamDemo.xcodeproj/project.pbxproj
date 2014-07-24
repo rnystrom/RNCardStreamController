@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2926C79F1980566400534299 /* RNSampleCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2926C79E1980566400534299 /* RNSampleCardView.m */; };
+		2926C7A11980567200534299 /* RNSampleCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2926C7A01980567200534299 /* RNSampleCardView.xib */; };
+		2926C7A4198057CF00534299 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 2926C7A2198057CF00534299 /* profile.png */; };
+		2926C7A5198057CF00534299 /* profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2926C7A3198057CF00534299 /* profile@2x.png */; };
+		2969735019812FE5004EC925 /* RNSampleImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2969734F19812FE5004EC925 /* RNSampleImageView.xib */; };
+		2969736719813180004EC925 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2969736619813180004EC925 /* data.json */; };
+		2969736A19814EC8004EC925 /* RNSampleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2969736919814EC8004EC925 /* RNSampleImageView.m */; };
+		29697376198152B3004EC925 /* collab.png in Resources */ = {isa = PBXBuildFile; fileRef = 2969736C198152B3004EC925 /* collab.png */; };
+		29697377198152B3004EC925 /* collab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2969736D198152B3004EC925 /* collab@2x.png */; };
+		29697378198152B3004EC925 /* nyc.png in Resources */ = {isa = PBXBuildFile; fileRef = 2969736E198152B3004EC925 /* nyc.png */; };
+		29697379198152B3004EC925 /* nyc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2969736F198152B3004EC925 /* nyc@2x.png */; };
+		2969737A198152B3004EC925 /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 29697370198152B3004EC925 /* plane.png */; };
+		2969737B198152B3004EC925 /* plane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29697371198152B3004EC925 /* plane@2x.png */; };
+		2969737C198152B3004EC925 /* sf.png in Resources */ = {isa = PBXBuildFile; fileRef = 29697372198152B3004EC925 /* sf.png */; };
+		2969737D198152B3004EC925 /* sf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29697373198152B3004EC925 /* sf@2x.png */; };
+		2969737E198152B3004EC925 /* shortnorth.png in Resources */ = {isa = PBXBuildFile; fileRef = 29697374198152B3004EC925 /* shortnorth.png */; };
+		2969737F198152B3004EC925 /* shortnorth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29697375198152B3004EC925 /* shortnorth@2x.png */; };
+		2969738219815695004EC925 /* RNSampleSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2969738119815695004EC925 /* RNSampleSectionView.m */; };
+		29697384198156A3004EC925 /* RNSampleSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29697383198156A3004EC925 /* RNSampleSectionView.xib */; };
+		2969738A1981C3AF004EC925 /* RNPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296973881981C3AF004EC925 /* RNPostViewController.m */; };
+		2969738B1981C3AF004EC925 /* RNPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296973891981C3AF004EC925 /* RNPostViewController.xib */; };
+		296973931981C3D0004EC925 /* RNImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296973911981C3D0004EC925 /* RNImageViewController.m */; };
+		296973941981C3D0004EC925 /* RNImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296973921981C3D0004EC925 /* RNImageViewController.xib */; };
+		298399F01981D21E00C08894 /* RNCardStreamController.m in Sources */ = {isa = PBXBuildFile; fileRef = 298399EF1981D21E00C08894 /* RNCardStreamController.m */; };
+		29DC72DD197DFC9100A6018F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DC72DC197DFC9100A6018F /* Foundation.framework */; };
+		29DC72DF197DFC9100A6018F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DC72DE197DFC9100A6018F /* CoreGraphics.framework */; };
+		29DC72E1197DFC9100A6018F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DC72E0197DFC9100A6018F /* UIKit.framework */; };
+		29DC72E7197DFC9100A6018F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29DC72E5197DFC9100A6018F /* InfoPlist.strings */; };
+		29DC72E9197DFC9100A6018F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DC72E8197DFC9100A6018F /* main.m */; };
+		29DC72ED197DFC9100A6018F /* RNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DC72EC197DFC9100A6018F /* RNAppDelegate.m */; };
+		29DC72EF197DFC9100A6018F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29DC72EE197DFC9100A6018F /* Images.xcassets */; };
+		29DC72F6197DFC9100A6018F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DC72F5197DFC9100A6018F /* XCTest.framework */; };
+		29DC72F7197DFC9100A6018F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DC72DC197DFC9100A6018F /* Foundation.framework */; };
+		29DC72F8197DFC9100A6018F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DC72E0197DFC9100A6018F /* UIKit.framework */; };
+		8ACF140092304F4A9CA2E420 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB72904321544A390F39EA7 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29DC72F9197DFC9100A6018F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29DC72D1197DFC9100A6018F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29DC72D8197DFC9100A6018F;
+			remoteInfo = RNCardStreamDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2926C79D1980566400534299 /* RNSampleCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSampleCardView.h; sourceTree = "<group>"; };
+		2926C79E1980566400534299 /* RNSampleCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSampleCardView.m; sourceTree = "<group>"; };
+		2926C7A01980567200534299 /* RNSampleCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RNSampleCardView.xib; sourceTree = "<group>"; };
+		2926C7A2198057CF00534299 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		2926C7A3198057CF00534299 /* profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile@2x.png"; sourceTree = "<group>"; };
+		2969734F19812FE5004EC925 /* RNSampleImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RNSampleImageView.xib; sourceTree = "<group>"; };
+		2969736619813180004EC925 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		2969736819814EC8004EC925 /* RNSampleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSampleImageView.h; sourceTree = "<group>"; };
+		2969736919814EC8004EC925 /* RNSampleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSampleImageView.m; sourceTree = "<group>"; };
+		2969736C198152B3004EC925 /* collab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collab.png; sourceTree = "<group>"; };
+		2969736D198152B3004EC925 /* collab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "collab@2x.png"; sourceTree = "<group>"; };
+		2969736E198152B3004EC925 /* nyc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nyc.png; sourceTree = "<group>"; };
+		2969736F198152B3004EC925 /* nyc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nyc@2x.png"; sourceTree = "<group>"; };
+		29697370198152B3004EC925 /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+		29697371198152B3004EC925 /* plane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane@2x.png"; sourceTree = "<group>"; };
+		29697372198152B3004EC925 /* sf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sf.png; sourceTree = "<group>"; };
+		29697373198152B3004EC925 /* sf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sf@2x.png"; sourceTree = "<group>"; };
+		29697374198152B3004EC925 /* shortnorth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shortnorth.png; sourceTree = "<group>"; };
+		29697375198152B3004EC925 /* shortnorth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shortnorth@2x.png"; sourceTree = "<group>"; };
+		2969738019815695004EC925 /* RNSampleSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSampleSectionView.h; sourceTree = "<group>"; };
+		2969738119815695004EC925 /* RNSampleSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSampleSectionView.m; sourceTree = "<group>"; };
+		29697383198156A3004EC925 /* RNSampleSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RNSampleSectionView.xib; sourceTree = "<group>"; };
+		296973871981C3AF004EC925 /* RNPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPostViewController.h; sourceTree = "<group>"; };
+		296973881981C3AF004EC925 /* RNPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPostViewController.m; sourceTree = "<group>"; };
+		296973891981C3AF004EC925 /* RNPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RNPostViewController.xib; sourceTree = "<group>"; };
+		296973901981C3D0004EC925 /* RNImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNImageViewController.h; sourceTree = "<group>"; };
+		296973911981C3D0004EC925 /* RNImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNImageViewController.m; sourceTree = "<group>"; };
+		296973921981C3D0004EC925 /* RNImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RNImageViewController.xib; sourceTree = "<group>"; };
+		298399EE1981D21E00C08894 /* RNCardStreamController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNCardStreamController.h; path = ../RNCardStreamController.h; sourceTree = "<group>"; };
+		298399EF1981D21E00C08894 /* RNCardStreamController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNCardStreamController.m; path = ../RNCardStreamController.m; sourceTree = "<group>"; };
+		29DC72D9197DFC9100A6018F /* RNCardStreamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNCardStreamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DC72DC197DFC9100A6018F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29DC72DE197DFC9100A6018F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29DC72E0197DFC9100A6018F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29DC72E4197DFC9100A6018F /* RNCardStreamDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RNCardStreamDemo-Info.plist"; sourceTree = "<group>"; };
+		29DC72E6197DFC9100A6018F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29DC72E8197DFC9100A6018F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29DC72EA197DFC9100A6018F /* RNCardStreamDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNCardStreamDemo-Prefix.pch"; sourceTree = "<group>"; };
+		29DC72EB197DFC9100A6018F /* RNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAppDelegate.h; sourceTree = "<group>"; };
+		29DC72EC197DFC9100A6018F /* RNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppDelegate.m; sourceTree = "<group>"; };
+		29DC72EE197DFC9100A6018F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29DC72F4197DFC9100A6018F /* RNCardStreamDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNCardStreamDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DC72F5197DFC9100A6018F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BBB72904321544A390F39EA7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD0E13B4E1F4889A9314F55 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29DC72D6197DFC9100A6018F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DC72DF197DFC9100A6018F /* CoreGraphics.framework in Frameworks */,
+				29DC72E1197DFC9100A6018F /* UIKit.framework in Frameworks */,
+				29DC72DD197DFC9100A6018F /* Foundation.framework in Frameworks */,
+				8ACF140092304F4A9CA2E420 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DC72F1197DFC9100A6018F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DC72F6197DFC9100A6018F /* XCTest.framework in Frameworks */,
+				29DC72F8197DFC9100A6018F /* UIKit.framework in Frameworks */,
+				29DC72F7197DFC9100A6018F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29697365198130D2004EC925 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2969736C198152B3004EC925 /* collab.png */,
+				2969736D198152B3004EC925 /* collab@2x.png */,
+				2969736E198152B3004EC925 /* nyc.png */,
+				2969736F198152B3004EC925 /* nyc@2x.png */,
+				29697370198152B3004EC925 /* plane.png */,
+				29697371198152B3004EC925 /* plane@2x.png */,
+				29697372198152B3004EC925 /* sf.png */,
+				29697373198152B3004EC925 /* sf@2x.png */,
+				29697374198152B3004EC925 /* shortnorth.png */,
+				29697375198152B3004EC925 /* shortnorth@2x.png */,
+				2926C7A2198057CF00534299 /* profile.png */,
+				2926C7A3198057CF00534299 /* profile@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		2969736B19814F07004EC925 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29697365198130D2004EC925 /* Images */,
+				29DC72EE197DFC9100A6018F /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		296973851981C390004EC925 /* Section Views */ = {
+			isa = PBXGroup;
+			children = (
+				2969738019815695004EC925 /* RNSampleSectionView.h */,
+				2969738119815695004EC925 /* RNSampleSectionView.m */,
+				29697383198156A3004EC925 /* RNSampleSectionView.xib */,
+			);
+			name = "Section Views";
+			sourceTree = "<group>";
+		};
+		296973861981C394004EC925 /* Card Views */ = {
+			isa = PBXGroup;
+			children = (
+				2926C79D1980566400534299 /* RNSampleCardView.h */,
+				2926C79E1980566400534299 /* RNSampleCardView.m */,
+				2926C7A01980567200534299 /* RNSampleCardView.xib */,
+				2969736819814EC8004EC925 /* RNSampleImageView.h */,
+				2969736919814EC8004EC925 /* RNSampleImageView.m */,
+				2969734F19812FE5004EC925 /* RNSampleImageView.xib */,
+			);
+			name = "Card Views";
+			sourceTree = "<group>";
+		};
+		2969738C1981C3B4004EC925 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				296973871981C3AF004EC925 /* RNPostViewController.h */,
+				296973881981C3AF004EC925 /* RNPostViewController.m */,
+				296973891981C3AF004EC925 /* RNPostViewController.xib */,
+				296973901981C3D0004EC925 /* RNImageViewController.h */,
+				296973911981C3D0004EC925 /* RNImageViewController.m */,
+				296973921981C3D0004EC925 /* RNImageViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		29DC72D0197DFC9100A6018F = {
+			isa = PBXGroup;
+			children = (
+				298399EE1981D21E00C08894 /* RNCardStreamController.h */,
+				298399EF1981D21E00C08894 /* RNCardStreamController.m */,
+				29DC72E2197DFC9100A6018F /* example */,
+				29DC72DB197DFC9100A6018F /* Frameworks */,
+				29DC72DA197DFC9100A6018F /* Products */,
+				CDD0E13B4E1F4889A9314F55 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		29DC72DA197DFC9100A6018F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29DC72D9197DFC9100A6018F /* RNCardStreamDemo.app */,
+				29DC72F4197DFC9100A6018F /* RNCardStreamDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29DC72DB197DFC9100A6018F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29DC72DC197DFC9100A6018F /* Foundation.framework */,
+				29DC72DE197DFC9100A6018F /* CoreGraphics.framework */,
+				29DC72E0197DFC9100A6018F /* UIKit.framework */,
+				29DC72F5197DFC9100A6018F /* XCTest.framework */,
+				BBB72904321544A390F39EA7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29DC72E2197DFC9100A6018F /* example */ = {
+			isa = PBXGroup;
+			children = (
+				2969736B19814F07004EC925 /* Resources */,
+				29DC72EB197DFC9100A6018F /* RNAppDelegate.h */,
+				29DC72EC197DFC9100A6018F /* RNAppDelegate.m */,
+				296973861981C394004EC925 /* Card Views */,
+				29DC72E3197DFC9100A6018F /* Supporting Files */,
+				296973851981C390004EC925 /* Section Views */,
+				2969738C1981C3B4004EC925 /* Controllers */,
+			);
+			name = example;
+			path = RNCardStreamDemo;
+			sourceTree = "<group>";
+		};
+		29DC72E3197DFC9100A6018F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2969736619813180004EC925 /* data.json */,
+				29DC72E4197DFC9100A6018F /* RNCardStreamDemo-Info.plist */,
+				29DC72E5197DFC9100A6018F /* InfoPlist.strings */,
+				29DC72E8197DFC9100A6018F /* main.m */,
+				29DC72EA197DFC9100A6018F /* RNCardStreamDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29DC72D8197DFC9100A6018F /* RNCardStreamDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29DC7305197DFC9100A6018F /* Build configuration list for PBXNativeTarget "RNCardStreamDemo" */;
+			buildPhases = (
+				D5CC6B6B00DA47E1A4951BBF /* Check Pods Manifest.lock */,
+				29DC72D5197DFC9100A6018F /* Sources */,
+				29DC72D6197DFC9100A6018F /* Frameworks */,
+				29DC72D7197DFC9100A6018F /* Resources */,
+				A72398AA0DF947098D679CF5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNCardStreamDemo;
+			productName = RNCardStreamDemo;
+			productReference = 29DC72D9197DFC9100A6018F /* RNCardStreamDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29DC72F3197DFC9100A6018F /* RNCardStreamDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29DC7308197DFC9100A6018F /* Build configuration list for PBXNativeTarget "RNCardStreamDemoTests" */;
+			buildPhases = (
+				29DC72F0197DFC9100A6018F /* Sources */,
+				29DC72F1197DFC9100A6018F /* Frameworks */,
+				29DC72F2197DFC9100A6018F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29DC72FA197DFC9100A6018F /* PBXTargetDependency */,
+			);
+			name = RNCardStreamDemoTests;
+			productName = RNCardStreamDemoTests;
+			productReference = 29DC72F4197DFC9100A6018F /* RNCardStreamDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29DC72D1197DFC9100A6018F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ryan Nystrom";
+				TargetAttributes = {
+					29DC72F3197DFC9100A6018F = {
+						TestTargetID = 29DC72D8197DFC9100A6018F;
+					};
+				};
+			};
+			buildConfigurationList = 29DC72D4197DFC9100A6018F /* Build configuration list for PBXProject "RNCardStreamDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29DC72D0197DFC9100A6018F;
+			productRefGroup = 29DC72DA197DFC9100A6018F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29DC72D8197DFC9100A6018F /* RNCardStreamDemo */,
+				29DC72F3197DFC9100A6018F /* RNCardStreamDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29DC72D7197DFC9100A6018F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29697378198152B3004EC925 /* nyc.png in Resources */,
+				2969737B198152B3004EC925 /* plane@2x.png in Resources */,
+				29697384198156A3004EC925 /* RNSampleSectionView.xib in Resources */,
+				2969737F198152B3004EC925 /* shortnorth@2x.png in Resources */,
+				2969735019812FE5004EC925 /* RNSampleImageView.xib in Resources */,
+				29DC72E7197DFC9100A6018F /* InfoPlist.strings in Resources */,
+				2969737D198152B3004EC925 /* sf@2x.png in Resources */,
+				2969737C198152B3004EC925 /* sf.png in Resources */,
+				296973941981C3D0004EC925 /* RNImageViewController.xib in Resources */,
+				29697379198152B3004EC925 /* nyc@2x.png in Resources */,
+				29697376198152B3004EC925 /* collab.png in Resources */,
+				2926C7A11980567200534299 /* RNSampleCardView.xib in Resources */,
+				2969738B1981C3AF004EC925 /* RNPostViewController.xib in Resources */,
+				29DC72EF197DFC9100A6018F /* Images.xcassets in Resources */,
+				29697377198152B3004EC925 /* collab@2x.png in Resources */,
+				2969737A198152B3004EC925 /* plane.png in Resources */,
+				2969737E198152B3004EC925 /* shortnorth.png in Resources */,
+				2969736719813180004EC925 /* data.json in Resources */,
+				2926C7A4198057CF00534299 /* profile.png in Resources */,
+				2926C7A5198057CF00534299 /* profile@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DC72F2197DFC9100A6018F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A72398AA0DF947098D679CF5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5CC6B6B00DA47E1A4951BBF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29DC72D5197DFC9100A6018F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2926C79F1980566400534299 /* RNSampleCardView.m in Sources */,
+				29DC72ED197DFC9100A6018F /* RNAppDelegate.m in Sources */,
+				2969736A19814EC8004EC925 /* RNSampleImageView.m in Sources */,
+				296973931981C3D0004EC925 /* RNImageViewController.m in Sources */,
+				2969738219815695004EC925 /* RNSampleSectionView.m in Sources */,
+				298399F01981D21E00C08894 /* RNCardStreamController.m in Sources */,
+				29DC72E9197DFC9100A6018F /* main.m in Sources */,
+				2969738A1981C3AF004EC925 /* RNPostViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DC72F0197DFC9100A6018F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29DC72FA197DFC9100A6018F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29DC72D8197DFC9100A6018F /* RNCardStreamDemo */;
+			targetProxy = 29DC72F9197DFC9100A6018F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29DC72E5197DFC9100A6018F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29DC72E6197DFC9100A6018F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29DC7303197DFC9100A6018F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29DC7304197DFC9100A6018F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29DC7306197DFC9100A6018F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD0E13B4E1F4889A9314F55 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RNCardStreamDemo/RNCardStreamDemo-Prefix.pch";
+				INFOPLIST_FILE = "RNCardStreamDemo/RNCardStreamDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29DC7307197DFC9100A6018F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD0E13B4E1F4889A9314F55 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RNCardStreamDemo/RNCardStreamDemo-Prefix.pch";
+				INFOPLIST_FILE = "RNCardStreamDemo/RNCardStreamDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		29DC7309197DFC9100A6018F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RNCardStreamDemo.app/RNCardStreamDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RNCardStreamDemo/RNCardStreamDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RNCardStreamDemoTests/RNCardStreamDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		29DC730A197DFC9100A6018F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RNCardStreamDemo.app/RNCardStreamDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RNCardStreamDemo/RNCardStreamDemo-Prefix.pch";
+				INFOPLIST_FILE = "RNCardStreamDemoTests/RNCardStreamDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29DC72D4197DFC9100A6018F /* Build configuration list for PBXProject "RNCardStreamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DC7303197DFC9100A6018F /* Debug */,
+				29DC7304197DFC9100A6018F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29DC7305197DFC9100A6018F /* Build configuration list for PBXNativeTarget "RNCardStreamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DC7306197DFC9100A6018F /* Debug */,
+				29DC7307197DFC9100A6018F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29DC7308197DFC9100A6018F /* Build configuration list for PBXNativeTarget "RNCardStreamDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DC7309197DFC9100A6018F /* Debug */,
+				29DC730A197DFC9100A6018F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29DC72D1197DFC9100A6018F /* Project object */;
+}
