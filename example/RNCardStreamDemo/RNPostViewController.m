@@ -37,4 +37,12 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+- (BOOL)prefersStatusBarHidden {
+    return NO;
+}
+
+- (UIStatusBarAnimation)preferredStatusBarUpdateAnimation {
+    return UIStatusBarAnimationFade;
+}
+
 @end
