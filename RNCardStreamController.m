@@ -419,7 +419,7 @@ NSString * const kRNCardStreamControllerCollectionCellIdentifier = @"kRNCardStre
         
         // only addSubView if the sectionView is not in the master view
         if (sectionView.superview != self.scrollView) {
-            NSAssert(!sectionView.superview, @"View for section %i already has a superview. Code smell.",section);
+            NSAssert(!sectionView.superview, @"View for section %li already has a superview. Code smell.",(long)section);
             
             [self.scrollView addSubview:sectionView];
         }
